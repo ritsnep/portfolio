@@ -564,9 +564,14 @@ align-items: center;
 }
 
 .portfolio-item {
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
   margin-bottom: 30px;
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
   
 }
 
@@ -801,6 +806,18 @@ align-items: center;
   color: #007bff;
 }
 
+.photo-container {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* This ensures the height adjusts proportionally based on the width */
+  text-align: center; /* Center the photo horizontally */
+}
+
+.photo {
+  max-width: 100%; /* Ensure the photo doesn't exceed the container width */
+  height: auto; /* This ensures the height adjusts proportionally based on the width */
+  display: inline-block; /* This helps center the photo if necessary */
+  border-radius: 50%; /* For a square photo, this creates rounded corners to make it look like a circle */
+}
 
 /* Status color */
 
