@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nepal Rastra Bank Act & Bank & Financial Institutions Act Notes</title>
+
+  <!-- ================== CDN LINKS FOR EXTREME CSS & JS ================== -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <!-- AOS (Animate On Scroll) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <!-- SweetAlert2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" />
+
+  <!-- Custom CSS to push visuals to the extreme -->
+  <style>
+    /* Use insane visuals just for demonstration */
+    body {
+      background: linear-gradient(to right, #292E49, #536976, #BBD2C5);
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+      overflow-x: hidden;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      text-transform: uppercase;
+      font-weight: 800;
+      margin-top: 40px;
+    }
+
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .navbar-brand {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: #fff !important;
+    }
+
+    /* Parallax Banner */
+    .banner {
+      background: url('https://images.unsplash.com/photo-1504198453319-5ce911bafcde?ixlib=rb-4.0.3&auto=format&fit=crop&w=1869&q=80') center center/cover no-repeat;
+      position: relative;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .banner::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .banner .banner-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .banner h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+    }
+
+    /* Section Heading */
+    .section-heading {
+      text-align: center;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+
+    .section-heading::after {
+      content: "";
+      width: 80px;
+      height: 4px;
+      background-color: #fff;
+      display: block;
+      margin: 0.5rem auto;
+    }
+
+    /* Card styling for content */
+    .info-card {
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .info-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Smooth Scrolling Links */
+    a {
+      cursor: pointer;
+    }
+
+    /* Footer */
+    footer {
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+      color: #ddd;
+    }
+
+    /* Make headings stand out with crazy color transitions */
+    h3,
+    h4,
+    h5 {
+      background: linear-gradient(90deg, #ff8a00, #da1b60);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+<body data-spy="scroll" data-target="#mainNav" data-offset="70">
+  <!-- ================== NAVIGATION BAR ================== -->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand animate__animated animate__tada" href="#">NRB & BFI Acts</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+      aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#nrbAct">NRB Act 2058</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#bfiAct">BFI Act 2073</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://riteshnepali.com.np" id="infoBtn">
+            <i class="fas fa-info-circle"></i> Info
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  
+  <!-- ================== BANNER ================== -->
+  <div class="banner">
+    <div class="banner-content animate__animated animate__fadeInDown">
+      <h1 class="display-4">Explore Nepal's Financial Legislation</h1>
+      <p class="lead">Deep dive into the core Acts governing banking and monetary policies</p>
+    </div>
+  </div>
+
+
+  <!-- ================== NRB ACT 2058 SECTION ================== -->
+  <section id="nrbAct" class="container py-5">
+    <h2 class="section-heading animate__animated animate__zoomIn" data-aos="fade-up">
+      Precise Notes on Nepal Rastra Bank Act, 2058 (2002)
+    </h2>
+    <!-- 1. Purpose of the Act -->
+    <div class="info-card" data-aos="fade-right">
+      <h3>1. Purpose of the Act</h3>
+      <ul>
+        <li>Establish Nepal Rastra Bank (NRB) as the central bank of Nepal.</li>
+        <li>Ensure financial stability, regulate the banking sector, and manage monetary and foreign exchange policies.
+        </li>
+        <li>Support sustainable economic development through stability in prices and the financial sector.</li>
+        <li>Safeguard and strengthen the financial system to promote economic resilience.</li>
+      </ul>
+    </div>
+    <!-- 2. Key Objectives -->
+    <div class="info-card" data-aos="fade-left">
+      <h3>2. Key Objectives</h3>
+      <ul>
+        <li>Formulate and implement monetary and foreign exchange policies tailored to national economic needs.</li>
+        <li>Maintain price stability and balance of payments to ensure economic growth.</li>
+        <li>Strengthen public confidence in the financial system through transparency and accountability.</li>
+        <li>Develop a robust, secure, and efficient payment system infrastructure.</li>
+        <li>Enhance access to financial services across the country, particularly in rural and underserved areas.</li>
+        <li>Act as a banker and advisor to the Government of Nepal, supporting fiscal and economic policies.</li>
+      </ul>
+    </div>
+    <!-- 3. Structure and Governance -->
+    <div class="info-card" data-aos="fade-right">
+      <h3>3. Structure and Governance</h3>
+      <ul>
+        <li><strong>Board of Directors</strong>: The apex body responsible for strategic decisions, comprising the
+          Governor (Chairperson), Deputy Governors, Finance Secretary, and three Directors appointed by the Government.
+          <ul>
+            <li>Roles include policy formation, budget approval, and operational oversight.</li>
+          </ul>
+        </li>
+        <li><strong>Governor</strong>:
+          <ul>
+            <li>Appointed by the Council of Ministers based on a recommendation from a selection committee.</li>
+            <li>Tenure of five years, renewable for one additional term.</li>
+            <li>Functions as the executive head, responsible for implementing Board decisions, international
+              representation, and overall management.</li>
+          </ul>
+        </li>
+        <li><strong>Deputy Governors</strong>: Support the Governor in key areas like monetary policy, financial
+          stability, and regulation.</li>
+        <li><strong>Directors</strong>: Renowned experts in economics, banking, finance, or law, offering strategic
+          insights and independent perspectives.</li>
+      </ul>
+    </div>
+    <!-- 4. Functions, Duties, and Powers -->
+    <div class="info-card" data-aos="fade-left">
+      <h3>4. Functions, Duties, and Powers</h3>
+      <ul>
+        <li><strong>Monetary Policy</strong>:
+          <ul>
+            <li>Formulate and implement policies aimed at maintaining price stability.</li>
+            <li>Design measures to regulate inflation and ensure economic equilibrium.</li>
+          </ul>
+        </li>
+        <li><strong>Foreign Exchange Management</strong>:
+          <ul>
+            <li>Supervise and regulate all foreign exchange transactions.</li>
+            <li>Maintain adequate foreign currency reserves to support international trade.</li>
+            <li>Stabilize exchange rates through policy interventions and market operations.</li>
+          </ul>
+        </li>
+        <li><strong>Regulation and Supervision</strong>:
+          <ul>
+            <li>Issue licenses to banks and financial institutions, ensuring rigorous entry standards.</li>
+            <li>Conduct regular audits, inspections, and risk assessments to uphold financial integrity.</li>
+            <li>Impose penalties and corrective measures for non-compliance.</li>
+          </ul>
+        </li>
+        <li><strong>Issuance of Currency</strong>:
+          <ul>
+            <li>Exclusive rights to issue Nepalese currency, backed by reserves such as gold, silver, and government
+              securities.</li>
+            <li>Replace soiled, counterfeit, or outdated currency to maintain public trust.</li>
+          </ul>
+        </li>
+        <li><strong>Lender of Last Resort</strong>:
+          <ul>
+            <li>Provide liquidity assistance to banks and financial institutions during periods of financial stress.
+            </li>
+          </ul>
+        </li>
+        <li><strong>Government Advisor and Banker</strong>:
+          <ul>
+            <li>Manage public debt efficiently and act as the fiscal agent for government transactions.</li>
+            <li>Provide expert advice on fiscal and monetary matters.</li>
+          </ul>
+        </li>
+        <li><strong>Payment Systems</strong>:
+          <ul>
+            <li>Develop advanced systems for payment, clearing, and settlement to enhance economic efficiency.</li>
+          </ul>
+        </li>
+        <li><strong>Open Market Operations</strong>:
+          <ul>
+            <li>Conduct transactions in government securities to regulate market liquidity.</li>
+          </ul>
+        </li>
+        <li><strong>International Representation</strong>:
+          <ul>
+            <li>Represent Nepal in organizations like the IMF, World Bank, and other financial forums.</li>
+            <li>Strengthen Nepal’s international financial relationships and agreements.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- 5. Issuance of Currency -->
+    <div class="info-card" data-aos="fade-right">
+      <h3>5. Issuance of Currency</h3>
+      <ul>
+        <li>Monopoly over the issuance of Nepalese currency ensures a stable and secure monetary base.</li>
+        <li>Banknotes are backed by a mix of assets such as gold, silver, foreign reserves, and government bonds.</li>
+        <li>Procedures include:
+          <ul>
+            <li>Withdrawal and destruction of counterfeit or damaged notes.</li>
+            <li>Minting of coins domestically or through foreign arrangements with government approval.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- 6. Financial Provisions -->
+    <div class="info-card" data-aos="fade-left">
+      <h3>6. Financial Provisions</h3>
+      <ul>
+        <li>Authorized capital initially set at NPR 5 billion, adjustable by government decision.</li>
+        <li>Allocation of annual profits includes:
+          <ul>
+            <li>Revaluation Reserve Fund for currency stability.</li>
+            <li>General Reserve Fund with a minimum allocation of 10% of profits.</li>
+            <li>Financial Stability Fund to cushion economic shocks.</li>
+            <li>Surplus transfer to the Government of Nepal.</li>
+          </ul>
+        </li>
+        <li>Exemptions:
+          <ul>
+            <li>NRB operations are exempt from taxes, duties, and registration fees to ensure operational efficiency.
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- 7. Regulatory and Supervisory Role -->
+    <div class="info-card" data-aos="fade-right">
+      <h3>7. Regulatory and Supervisory Role</h3>
+      <ul>
+        <li><strong>Licensing and Supervision</strong>:
+          <ul>
+            <li>Grant licenses to financial institutions, ensuring compliance with national standards.</li>
+            <li>Inspect and audit regularly to identify and mitigate risks.</li>
+            <li>Enforce sanctions, including fines, suspension, or revocation of licenses for violations.</li>
+          </ul>
+        </li>
+        <li><strong>Risk Management</strong>:
+          <ul>
+            <li>Mandate capital adequacy ratios and liquidity buffers to safeguard the financial sector.</li>
+            <li>Monitor credit exposures and systemic risks, taking proactive measures.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- 8. Foreign Exchange Management -->
+    <div class="info-card" data-aos="fade-left">
+      <h3>8. Foreign Exchange Management</h3>
+      <ul>
+        <li>Maintain reserves to ensure the country’s ability to meet international financial obligations.</li>
+        <li>Issue directives for forex transactions to align with national policy objectives.</li>
+        <li>Stabilize currency values through targeted interventions.</li>
+      </ul>
+    </div>
+    <!-- 9. Transparency and Accountability -->
+    <div class="info-card" data-aos="fade-right">
+      <h3>9. Transparency and Accountability</h3>
+      <ul>
+        <li>Publish comprehensive reports on monetary, fiscal, and financial conditions.</li>
+        <li>Provide annual reports detailing NRB’s activities, policies, and financial health.</li>
+        <li>Ensure timely submission of reports to the Government and public disclosure for transparency.</li>
+        <li>Foster trust by adhering to international best practices in governance.</li>
+      </ul>
+    </div>
+    <!-- 10. Prohibited Activities -->
+    <div class="info-card" data-aos="fade-left">
+      <h3>10. Prohibited Activities</h3>
+      <ul>
+        <li>NRB is restricted from engaging in:
+          <ul>
+            <li>Commercial trade or private sector investments.</li>
+            <li>Extending unsecured loans, except for employee benefits under specific conditions.</li>
+            <li>Financing government deficits directly, except under predefined emergency circumstances.</li>
+          </ul>
+        </li>
+        <li>Employees and Board members must avoid conflicts of interest and personal gain from NRB activities.</li>
+      </ul>
+    </div>
+    <!-- 11. International Cooperation -->
+    <div class="info-card" data-aos="fade-right">
+      <h3>11. International Cooperation</h3>
+      <ul>
+        <li>Engage with global financial organizations to strengthen Nepal’s economic standing.</li>
+        <li>Actively participate in monetary cooperation initiatives to foster regional and global stability.</li>
+        <li>Represent Nepal in crafting and executing international financial agreements.</li>
+      </ul>
+    </div>
+    <!-- 12. Penalties and Compliance -->
+    <div class="info-card" data-aos="fade-left">
+      <h3>12. Penalties and Compliance</h3>
+      <ul>
+        <li>Non-compliance with NRB directives can lead to:
+          <ul>
+            <li>Financial penalties or legal action against erring institutions.</li>
+            <li>Suspension or revocation of operating licenses.</li>
+          </ul>
+        </li>
+        <li>NRB exercises authority to enforce corrective measures and uphold regulatory standards.</li>
+      </ul>
+    </div>
+    <!-- Additional Insights -->
+    <div class="info-card" data-aos="zoom-in">
+      <h3>Additional Insights</h3>
+      <ul>
+        <li>The Act serves as the cornerstone of Nepal’s monetary and financial policies, balancing economic growth and
+          stability.</li>
+        <li>It establishes a robust legal framework to ensure NRB operates effectively while adapting to changing
+          economic conditions.</li>
+        <li>By prioritizing financial inclusion and technological innovation, the Act sets a roadmap for sustainable
+          development in Nepal’s financial sector.</li>
+        <li>This Act remains pivotal in fostering a stable, transparent, and efficient financial system, ensuring that
+          Nepal Rastra Bank fulfills its role as a central pillar of the nation’s economic architecture.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================== BFI ACT 2073 SECTION ================== -->
+  <section id="bfiAct" class="container py-5">
+    <h2 class="section-heading animate__animated animate__zoomIn" data-aos="fade-up">
+      Precise Notes on Bank and Financial Institutions Act, 2073 (2017)
+    </h2>
+    <!-- 1. Purpose of the Act -->
+    <div class="info-card" data-aos="fade-right">
+      <h3>1. Purpose of the Act</h3>
+      <ul>
+        <li>Consolidate and amend laws related to banks and financial institutions (BFIs).</li>
+        <li>Enhance public confidence in the banking sector by protecting depositors' rights.</li>
+        <li>Promote healthy competition and ensure quality financial services.</li>
+        <li>Strengthen financial stability and regulate BFIs effectively.</li>
+      </ul>
+    </div>
+    <!-- 2. Classification of Financial Institutions -->
+    <div class="info-card" data-aos="fade-left">
+      <h3>2. Classification of Financial Institutions</h3>
+      <ul>
+        <li>BFIs are categorized into four classes based on operations and minimum paid-up capital:
+          <ul>
+            <li><strong>Class A</strong>: Commercial Banks.</li>
+            <li><strong>Class B</strong>: Development Banks.</li>
+            <li><strong>Class C</strong>: Finance Companies.</li>
+            <li><strong>Class D</strong>: Microfinance Institutions.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- 3. Licensing Requirements -->
+    <div class="info-card" data-aos="fade-right">
+      <h3>3. Licensing Requirements</h3>
+      <ul>
+        <li>BFIs must obtain a license from Nepal Rastra Bank (NRB) before conducting banking operations.</li>
+        <li>Application includes:
+          <ul>
+            <li>Memorandum and Articles of Association.</li>
+            <li>Feasibility study report.</li>
+            <li>Details of promoters and initial capital.</li>
+          </ul>
+        </li>
+        <li>NRB ensures compliance with minimum capital requirements and governance standards before approval.</li>
+      </ul>
+    </div>
+    <!-- 4. Governance and Management -->
+    <div class="info-card" data-aos="fade-left">
+      <h3>4. Governance and Management</h3>
+      <ul>
+        <li><strong>Board of Directors</strong>:
+          <ul>
+            <li>Must comprise professionals with expertise in banking, finance, or law.</li>
+            <li>Includes independent directors for impartial decision-making.</li>
+          </ul>
+        </li>
+        <li><strong>Chief Executive Officer (CEO)</strong>:
+          <ul>
+            <li>Appointed by the Board; responsible for daily operations.</li>
+            <li>Tenure limited to four years, with one renewal.</li>
+          </ul>
+        </li>
+        <li>Directors and key officials must meet eligibility criteria set by NRB.</li>
+      </ul>
+    </div>
+    <!-- 5. Capital Adequacy and Risk Management -->
+    <div class="info-card" data-aos="fade-right">
+      <h3>5. Capital Adequacy and Risk Management</h3>
+      <ul>
+        <li>BFIs must maintain sufficient capital adequacy ratios to safeguard against financial risks.</li>
+        <li>NRB sets guidelines for risk management, including credit, market, and operational risks.</li>
+        <li>Regular stress testing and internal controls are mandatory.</li>
+      </ul>
+    </div>
+    <!-- 6. Deposit Protection -->
+    <div class="info-card" data-aos="fade-left">
+      <h3>6. Deposit Protection</h3>
+      <ul>
+        <li>Deposit Guarantee Fund established to protect depositors in case of BFI failures.</li>
+        <li>Coverage limits and procedures are defined by NRB.</li>
+      </ul>
+    </div>
+    <!-- 7. Regulation and Supervision -->
+    <div class="info-card" data-aos="fade-right">
+      <h3>7. Regulation and Supervision</h3>
+      <ul>
+        <li>NRB conducts regular inspections and audits of BFIs to ensure compliance.</li>
+        <li>BFIs must submit periodic reports on financial health, including non-performing assets and liquidity
+          positions.</li>
+        <li>Violations may result in fines, suspension, or license revocation.</li>
+      </ul>
+    </div>
+    <!-- 8. Prohibited Activities -->
+    <div class="info-card" data-aos="fade-left">
+      <h3>8. Prohibited Activities</h3>
+      <ul>
+        <li>BFIs are restricted from engaging in speculative trading or unsecured lending.</li>
+        <li>Insider trading and conflicts of interest are strictly prohibited.</li>
+        <li>Transactions with related parties require full disclosure and approval.</li>
+      </ul>
+    </div>
+    <!-- 9. Mergers and Acquisitions -->
+    <div class="info-card" data-aos="fade-right">
+      <h3>9. Mergers and Acquisitions</h3>
+      <ul>
+        <li>NRB encourages voluntary mergers to strengthen financial stability.</li>
+        <li>Approval is required for mergers, acquisitions, or significant changes in ownership.</li>
+        <li>Procedures ensure transparency and protection of stakeholders' interests.</li>
+      </ul>
+    </div>
+    <!-- 10. Penalties and Enforcement -->
+    <div class="info-card" data-aos="fade-left">
+      <h3>10. Penalties and Enforcement</h3>
+      <ul>
+        <li>Non-compliance with NRB regulations leads to penalties, including fines and operational restrictions.</li>
+        <li>Severe violations can result in the dissolution of the BFI.</li>
+      </ul>
+    </div>
+    <!-- 11. Transparency and Accountability -->
+    <div class="info-card" data-aos="fade-right">
+      <h3>11. Transparency and Accountability</h3>
+      <ul>
+        <li>BFIs must maintain transparency in operations and financial reporting.</li>
+        <li>Annual reports, including audited financial statements, must be published and made accessible to
+          stakeholders.</li>
+      </ul>
+    </div>
+    <!-- 12. Consumer Protection -->
+    <div class="info-card" data-aos="fade-left">
+      <h3>12. Consumer Protection</h3>
+      <ul>
+        <li>Clear guidelines on interest rates, fees, and charges to prevent exploitation.</li>
+        <li>Mechanisms for addressing consumer grievances and disputes.</li>
+      </ul>
+    </div>
+    <!-- 13. Special Provisions for Microfinance -->
+    <div class="info-card" data-aos="fade-right">
+      <h3>13. Special Provisions for Microfinance</h3>
+      <ul>
+        <li>Encourages financial inclusion by supporting microfinance institutions (Class D).</li>
+        <li>Simplified regulations to promote access to credit in underserved areas.</li>
+      </ul>
+    </div>
+    <!-- 14. Role of NRB -->
+    <div class="info-card" data-aos="fade-left">
+      <h3>14. Role of NRB</h3>
+      <ul>
+        <li>Act as the regulatory authority to oversee and guide BFIs.</li>
+        <li>Formulate policies for the sustainable development of the financial sector.</li>
+        <li>Ensure alignment of BFI operations with national economic goals.</li>
+      </ul>
+    </div>
+    <!-- Closing Summary -->
+    <div class="info-card" data-aos="zoom-in">
+      <h3>Conclusion</h3>
+      <p>
+        This Act serves as a comprehensive framework for managing Nepal's banking
+        and financial sector, emphasizing stability, transparency, and consumer
+        protection.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================== FOOTER ================== -->
+  <footer>
+    <p class="mb-0">© 2024 <a href="https://riteshnepali.com.np">Ritesh Nepali</a> | All Rights Reserved</p>
+  </footer>
+
+  <!-- ================== JS LIBRARIES ================== -->
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <!-- Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RD1oc31KzB+7uoB1aI64tJzTDIhN6SXi7T1MIE2my7KnMa6aHT"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgOIUTnPnM/oH+q2R3sFQpDskZCkRZOAtx62LezqMol3bZQ0Feh"
+    crossorigin="anonymous"></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- WOW.js (requires animate.css) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-j2kInQZ9J3P0Fu+ZIDmjTiNdw3oGjti/IQ9bYedNEyxaqO3E3W8aVwKNA15We+yPpk0WSkzLd9zBdrYgwZk41Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"
+    integrity="sha256-GlnF28ZqN043vBjRQhHaoN/xAgQKw29gek8n9fCDja8=" crossorigin="anonymous"></script>
+
+  <!-- ================== CUSTOM JS ================== -->
+  <script>
+    // Initialize AOS
+    AOS.init({
+      duration: 800, // animation duration
+      easing: 'ease-in-out',
+      once: false, // whether animation should happen only once
+    });
+
+    // Initialize WOW.js
+    new WOW().init();
+
+    // Info button trigger using SweetAlert2
+    document.getElementById('infoBtn').addEventListener('click', function () {
+      Swal.fire({
+        title: 'About These Acts',
+        text: 'These notes compile key highlights from Nepal Rastra Bank Act (2058) and Bank & Financial Institutions Act (2073).',
+        icon: 'info',
+        confirmButtonText: 'Awesome'
+      });
+    });
+  </script>
+  
+</body>
+
+</html>
